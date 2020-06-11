@@ -1,0 +1,378 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: #E6E6E6;
+
+}
+
+
+header {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    padding-top: 15px;
+    z-index: 20;
+}
+
+.logo {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.links {
+    display: inline-block;
+}
+
+.navlink {
+    display: inline-block;
+    margin-right: 31px;
+    text-transform: uppercase;
+
+
+}
+
+.navlink :first-child {
+    margin-left: 80px;
+}
+
+.navlink a {
+    color: #00ff;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navlink a:hover {
+    text-decoration: underline;
+
+}
+
+
+.icon {
+    width: fit-content;
+    float: right;
+    display: inline-block;
+    margin-top: -26px;
+
+
+}
+
+.google {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 2px solid blue;
+    padding-right: 15px;
+}
+
+.Fb{
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 2px solid blue;
+    padding-right: 15px;
+}
+
+.youtube {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 2px solid blue;
+    padding-right: 15px;
+}
+
+.search {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 2px solid blue;
+    padding-right: 15px;
+    border: none;
+}
+
+
+
+
+
+/*=======================================================================================================
+=================================================section===============================================
+=======================================================================================================*/
+
+
+
+
+
+.bigboxa {
+    margin: 0 auto;
+}
+
+
+section {
+    display: inline-block;
+    margin: 80px 0px 0 80px;
+}
+
+
+
+
+
+
+/*=======================================================================================================
+=================================================smolbox1===============================================
+=======================================================================================================*/
+
+
+
+
+
+.smolbox1{
+    width: 1160px;
+    position: relative;
+    margin: 20px auto;
+
+
+}
+
+
+img .pc {
+    width: 1160px;
+    height: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.paragrap {
+    position: absolute;
+    bottom: 15%;
+    left: 2%;
+    white-space: initial;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.imagelogo {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    width: 58px;
+    height: 18px;
+    padding: 2px;
+    background-color: #e6e6e6;
+}
+
+
+
+
+
+
+
+/*=======================================================================================================
+=================================================smolbox2===============================================
+=======================================================================================================*/
+
+
+
+
+
+
+
+.smolbox2 {
+    background-color: #363E97;
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 98px;
+    border: #707070 solid 1px;
+
+}
+
+.divhead {
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.divbox1,
+.divbox2 {
+    width: 570px;
+    height: 320px;
+    background-color: white;
+    display: inline-block;
+    margin: 50px auto;
+    position: relative;
+}
+
+.divbox1 .boxp {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+}
+
+.divbox2 .boxp {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px; 
+}
+
+
+
+
+
+/*=======================================================================================================
+=================================================bigbox2===============================================
+=======================================================================================================*/
+
+
+
+
+
+
+.bigbox2 {
+    width: 100%;
+    height: 450px;
+    padding: 20px 98px;
+    background-color: #ACC4D1;
+
+}
+
+.bigboxhead {
+    color: #3D58A6;
+    font-size: 24px;
+}
+
+.verticalbox {
+    margin: 27px auto;
+}
+
+.divbox {
+    width: 270px;
+    height: 270px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    margin: 20px auto;
+}
+
+
+
+.divbox .pic1 {
+    position: absolute;
+}
+
+.title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    width: 270px;
+    height: 60px;
+    border: solid 1px #707070;
+
+}
+
+.text {
+    margin: 20px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*=======================================================================================================
+=================================================bigbox3===============================================
+=======================================================================================================*/
+
+
+
+
+.bigbox3 {
+    width: 100%;
+    height: 345px;
+    padding: 20px 98px;
+    background-color: #E6E6E6;
+}
+
+.bigbox3head{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.smolboxes {
+    width: 570px;
+    height: 225px;
+    background-color: #F2F2F2;
+    display: inline-block;
+    margin: 20px auto;
+    position: relative;
+}
+
+.smolboxes .title-box {
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color: #3D58A6;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.smolboximage {
+    width: 100px;
+    height: 130px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+.smolboxes p {
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.smolboxes span {
+    color: #3D58A6;
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: white;
+    height:30px;
+
+}
+
+footer::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+footer :last-child {
+    float: right;
+    margin-top: -15px;
+
+}
+
